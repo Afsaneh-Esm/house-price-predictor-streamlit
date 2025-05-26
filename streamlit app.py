@@ -39,7 +39,7 @@ if st.button("📊 Predict Price"):
 st.subheader("📈 Model Performance")
 
 # Load test vs predicted values
-eval_df = pd.read_csv("C:/Users/esmae/OneDrive/Documents/models/evaluation.csv")
+eval_df = pd.read_csv("evaluation.csv")
 r2 = r2_score(eval_df["actual"], eval_df["predicted"])
 
 st.write(f"**R² Score on Test Set:** {r2:.2f}")
