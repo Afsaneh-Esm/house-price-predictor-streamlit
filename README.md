@@ -38,7 +38,7 @@ pip install -r requirements.txt
 streamlit run "streamlit app.py"
 ---
 
-## 🌐 Live Demo
+### 🌐 Live Demo
 
 👉 [Click here to try the app](https://house-price-predictor-app-2bwcqkxe8dwb8hmtsvet3b.streamlit.app)
 
