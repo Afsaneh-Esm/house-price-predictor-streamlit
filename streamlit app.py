@@ -32,7 +32,7 @@ input_df = pd.DataFrame([{
 # Prediction button
 if st.button("📊 Predict Price"):
     prediction = model.predict(input_df)
-    st.success(f"💰 Estimated House Price: {prediction[0]:,.0f} Toman")
+    st.success(f"💰 Estimated House Price: {prediction[0]:,.0f} 💵")
     import matplotlib.pyplot as plt
 
 # Show model performance
