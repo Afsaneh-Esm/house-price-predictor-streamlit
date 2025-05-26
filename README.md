@@ -57,3 +57,4 @@ streamlit run "streamlit app.py"
 
 Made by [Afsaneh Esm](https://github.com/Afsaneh-Esm)  
 For learning and educational purposes ✨
+---
