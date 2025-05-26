@@ -37,17 +37,23 @@ pip install -r requirements.txt
 3. Run the app:
 streamlit run "streamlit app.py"
 ---
-##🌐 Live Demo
-👉 Click here to try the app
 
-📁 Files
-streamlit app.py: Main app code
+## 🌐 Live Demo
 
-trained_pipe_knn.sav: Trained KNN model
-best_model_dt.sav: DecisionTreeRegression model
-evaluation.csv: Actual vs predicted values for performance plot
-evaluation 1.csv: Actual vs predicted values for performance plot
-requirements.txt: List of required Python libraries
-🙋‍♀️ Author
-Made by Afsaneh Esm
-For learning & educational use ✨
+👉 [Click here to try the app](https://house-price-predictor-app-2bwcqkxe8dwb8hmtsvet3b.streamlit.app)
+
+---
+
+## 📁 Files
+
+- `streamlit app.py`: Main app code
+- `trained_pipe_knn.sav`: Trained KNN model
+- `evaluation.csv`: Actual vs predicted values for performance plot
+- `requirements.txt`: List of required Python libraries
+
+---
+
+## 🙋‍♀️ Author
+
+Made by [Afsaneh Esm](https://github.com/Afsaneh-Esm)  
+For learning and educational purposes ✨
