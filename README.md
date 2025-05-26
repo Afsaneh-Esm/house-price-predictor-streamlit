@@ -31,14 +31,13 @@ It was built as a machine learning deployment demo using Scikit-Learn and Stream
 ```bash
 git clone https://github.com/Afsaneh-Esm/house-price-predictor-streamlit.git
 cd house-price-predictor-streamlit
-
 2.Install dependencies:
 pip install -r requirements.txt
 
 3. Run the app:
 streamlit run "streamlit app.py"
-
-🌐 Live Demo
+---
+##🌐 Live Demo
 👉 Click here to try the app
 
 📁 Files
