@@ -12,7 +12,7 @@ st.set_page_config(page_title="House Price Predictor", page_icon="🏡")
 # App title and description
 st.title("🏡 House Price Prediction")
 st.markdown("Enter the property details to predict its estimated price.")
-model = joblib.load("models/trained_pipe_knn.sav")
+model = joblib.load("trained_pipe_knn.sav")
 # Input form (collapsible section)
 with st.expander("📝 Enter Property Details"):
     lot_area = st.number_input("📏 Lot Area (LotArea)", min_value=500, max_value=20000, value=5000)
